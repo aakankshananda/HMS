@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient</title>
+    <link rel="stylesheet" href="patient.css"/>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+  
+    <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid d-flex flex-wrap align-items-center justify-content-between">
+
+      <a class="btn btn-outline-primary me-3" data-bs-toggle="offcanvas" href="#offcanvasExample">
+        <i class="fas fa-bars"></i>Profile<img class="img-left img-fluid patient-img"
+            src="https://media.istockphoto.com/id/1478688327/vector/user-symbol-account-symbol-vector.jpg?s=612x612&w=0&k=20&c=N1Wxw0XjkUoXT9_Vaxa4SNIj1IvdJ2L2GQfEVVMTaFM=" width="50px"/>
+      </a>
+
+      <span class="navbar-brand mb-0 h1 mx-auto mx-md-3 text-center text-md-start">Welcome</span>
+      <form class="d-flex ms-auto mt-2 mt-md-0 ">
+        <input class="form-control me-2" type="search" placeholder="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <!-- Offcanvas Sidebar -->
+  
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title">Welcome</h5></br></br>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <p>Hello...🙂</p></br>
+      <p>➡️Name:S.Ruthu Varma</p></br>
+      <p>⌛Age:25</p></br>
+      <p>🚺Gender:Female</p></br>
+      <p>📩Email:RV@gmail.com</p></br>
+      <p>📞Mobile.no:6289458091</p>
+</div>
+
+  
+<!-- Carousel -->
+  <div id="bc">
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active mb-5 mt-5">
+      <img src="https://www.hepacart.com/hubfs/03-Images/Blog/UV-ForceAirQuality_UVCleaning.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block ">
+        <h5>Best Equipment</h5>
+        <p>Well Organized Blocks with all facilities</p>
+      </div>
+    </div>
+    <div class="carousel-item mb-5 mt-5">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcj2eQLKgasJBAfi147NJrmCN8sJq8kR8NVg&s" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Best Treatment</h5>
+        <p>Best checkups and advices</p>
+      </div>
+    </div>
+    <div class="carousel-item mb-5 mt-5">
+      <img src="https://media.istockphoto.com/id/1208116440/photo/group-of-doctors-with-face-masks-looking-at-camera-corona-virus-concept.jpg?s=612x612&w=0&k=20&c=Li307pkYKhknS_83aFFGtLHoC8A0ev0tjLe36FaH44s=" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>We have the Best Doctors</h5>
+        <p>Your Health Our Responsibility</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<div id="target">
+<p class="lead text-center">
+  <b>My Appoinments</b>
+</p>
+<table class="table table-success table-striped">
+   <thead>
+    <tr>
+      <th scope="col">Sl.No</th>
+      <th scope="col">Doctor</th>
+      <th scope="col">Date</th>
+      <th scope="col">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Dr.Smith</td>
+      <td>15-Nov 2025,10:00 AM</td>
+      <td>Confirmed</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Dr.Vikram</td>
+      <td>18-Nov 2025,2:30 PM</td>
+      <td>Pending</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Dr.Shilpa</td>
+      <td>20-Nov 2025,8:00 AM</td>
+      <td>Cancelled</td>
+    </tr>
+  </tbody>
+</table>
+</section>
+
+<p class="lead text-center">
+  <b>Reports</b>
+</p>
+<table class="table table-success table-striped">
+   <thead>
+    <tr>
+      <th scope="col">Sl.No</th>
+      <th scope="col">Test</th>
+      <th scope="col">Date</th>
+      <th scope="col">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Blood-Test</td>
+      <td>10-Nov 2025,10:30 am</td>
+      <td>Download Pdf</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>X-Ray Wrist</td>
+      <td>8-Nov 2025,4:30 pm</td>
+      <td>Download Pdf</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>CT-SCAN</td>
+      <td>12-Nov 2025,3:00 pm</td>
+      <td>Pending</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>MRI</td>
+      <td>14-Nov 2025,5:30 pm</td>
+      <td>Pending</td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td>Blood-Group</td>
+      <td>12-Nov 2025,11:00 am</td>
+      <td>Download Pdf</td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="lead text-center">
+  <b>Bills</b>
+</p>
+<table class="table table-success table-striped">
+   <thead>
+    <tr>
+      <th scope="col">Sl.No</th>
+      <th scope="col">Bill</th>
+      <th scope="col">Date</th>
+      <th scope="col">Status</th>
+      <th scope="col">Balance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Consultation-fee</td>
+      <td>4th sep 2025,3:42 pm</td>
+      <td>₹600 (paid)</td>
+      <td>Nill</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>X-Ray Wrist</td>
+      <td>14th sep 2025,3:42 pm</td>
+      <td>₹500 (paid)</td>
+      <td>Nill</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>CT-SCAN</td>
+      <td>23rd sep 2025,11:45 pm</td>
+      <td>350 (paid)</td>
+      <td>350 (Pending)</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>MRI</td>
+      <td>21st sep 2025,5:40 pm</td>
+      <td>700</td>
+      <td>Nill</td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td>Blood-Group</td>
+      <td>30th oct 2025,3:42 pm</td>
+      <td>250</td>
+      <td>Nill</td>
+    </tr>
+    <tr>
+      <th scope="row">6</th>
+      <td>X-ray</td>
+      <td>21st sep 2025,5:40 pm</td>
+      <td>300(paid)</td>
+      <td>700(pending)</td>
+    </tr>
+    <tr>
+      <th scope="row">7</th>
+      <td>Medicines</td>
+      <td>24th oct 2025,3:40 pm</td>
+      <td>1250</td>
+      <td>Nill</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+<footer class="bg-dark text-light text-center text-md border-top mt-5 pt-4 pb-2">
+  <div class="container">
+    <div class="row text-center text-md-start">
+      <div class="col-md-4 mb-3">
+        <h5 class="mb-2">About the Hospital</h5>
+        <p class="mb-1">Providing compassionate healthcare with advanced facilities and experienced doctors. Your health is our priority.</p>
+        <small class="text-muted">Data Security & Privacy Compliant</small>
+      </div>
+      <div class="col-md-3 mb-3">
+        <h6 class="mb-2">Quick Links</h6>
+        <ul class="list-unstyled">
+          <li><a href="#" class="link-secondary text-decoration-none">About Us</a></li>
+          <li><a href="#" class="link-secondary text-decoration-none">Departments</a></li>
+          <li><a href="#" class="link-secondary text-decoration-none">Doctors & Specialists</a></li>
+          <li><a href="#" class="link-secondary text-decoration-none">Privacy Policy</a></li>
+          <li><a href="#" class="link-secondary text-decoration-none">Terms of Service</a></li>
+        </ul>
+      </div>
+      <div class="col-md-5 mb-3">
+        <h6 class="mb-2">Contact Information</h6>
+        <p class="mb-1"><b>AJH HOSPITALS</b></p>
+        <p class="mb-1">Address: 1234 Main Road, VJY, State 000000</p>
+        <p class="mb-1">Helpline: +91 XXXX-XXXXXX</p>
+        <p class="mb-1">Emergency: <b>108</b> / 24x7 Line</p>
+        <span class="text-muted"><small>© 2025 AJH HOSPITALS. All rights reserved.</small></span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

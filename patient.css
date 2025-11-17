@@ -1,0 +1,58 @@
+body{
+    background-color:#15243b;
+} 
+.carousel-item img{
+    aspect-ratio: 5/2;
+}
+/* .container-fluid{
+    background-color: #15243b;
+} */
+.card img{
+    aspect-ratio: 3/2;
+}
+.container-fluid img{
+    border-radius: 50%;
+}
+.navbar{
+    background-color: #15243b;
+}
+#bc{
+    background-color: #15243b;
+    color:#ad8f5b;
+}
+.lead b{
+    font-size:larger;
+    /* box-shadow: 2px 2px 4px black;
+    background-color:white;
+    padding:2px 3px;
+    border-radius:10px; */
+}
+.carousel-item h5{
+    font-size: bold;
+    color: #15243b;
+}
+.carousel-item p{
+    font-size:bold;
+    color:white;
+}
+/* #target { */
+  /* animation: highlight 1.2s ease-out; */
+  /* border: 2px solid #ad8f5b !important; */
+  /* box-shadow: 0 0 20px rgba(173, 143, 91, 0.8); */
+  /* border-radius: 10px; */
+/* } */
+/*  */
+/* @keyframes highlight { */
+  /* 0% { */
+    /* box-shadow: 0 0 0px rgba(173, 143, 91, 0.0); */
+    /* border-color: transparent; */
+  /* } */
+  /* 50% { */
+    /* box-shadow: 0 0 25px rgba(173, 143, 91, 1); */
+    /* border-color: #ad8f5b; */
+  /* } */
+  /* 100% { */
+    /* box-shadow: 0 0 0px rgba(173, 143, 91, 0.0); */
+    /* border-color: transparent; */
+/*   } */
+/* } */

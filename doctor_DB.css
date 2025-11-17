@@ -1,0 +1,205 @@
+
+.navbar{
+      position: relative;
+            
+            
+}
+.hospital-logo{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+}
+body {
+  background-color: #15243b;
+  color: #ad8f5b;
+  padding-top: 80px ;
+  font-family: "sans-serif";
+}
+/* Make navbar fixed and remove gaps */
+.navbar {
+  background-color: #fff !important;
+  padding: 8px 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030;
+  margin: 0;
+}
+
+
+.btn{
+    background-color: #15243b;
+}
+.btn:hover{
+     background-color: #ad8f5b;
+ color: #fff;
+}
+
+.navbar {
+  background-color: #15243b;
+}
+
+
+.table-dark th,
+.table-dark td,
+.table-dark caption {
+  color: #ad8f5b !important;
+}
+
+.table-dark.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #2b2b2b;
+}
+
+.table-dark.table-striped tbody tr:nth-of-type(even) {
+  background-color: #1c1c1c;
+}
+
+.table table-dark table-striped caption-top{
+  display: flex;
+  align-items: center;
+  
+  
+}
+caption {
+  caption-side: top;
+  text-align: left;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 0.5rem;
+}
+
+
+.card {
+  border: none;
+  color: #ad8f5b;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+h6,
+h4,
+p,
+li,
+strong {
+  color: #ad8f5b !important;
+}
+
+
+.Right {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.Right .text-start {
+  flex: 1;          
+  margin-right: 20px;
+}
+
+
+.hospital-logo {
+  border-radius: 8px;
+  margin-left: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .Right {
+    justify-content: center;
+  }
+
+  .card {
+    text-align: center;
+  }
+}
+
+.offcanvas {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  backdrop-filter: blur(10px); 
+  color: #ad8f5b; 
+}
+.dropdown-item{
+    color:#ad8f5b;
+}
+.logout{
+    background-color:#15243b;
+}
+.logout:hover{
+     background-color: #ad8f5b;
+ color: #fff;
+}
+
+
+.doc-img{
+  border-radius: 100%;
+  width:50px;
+  border: 3px solid black;
+}
+
+.tab{
+  margin-left:80px;
+  
+}
+
+.active-drop {
+  background-color: #ad8f5b !important;
+  color: white !important;
+  border-radius: 6px;
+}
+
+
+/* highlight the section when scrolled */
+:target {
+  animation: highlight 1.2s ease-out;
+  border: 2px solid #ad8f5b !important;
+  box-shadow: 0 0 20px rgba(173, 143, 91, 0.8);
+  border-radius: 10px;
+}
+
+@keyframes highlight {
+  0% {
+    box-shadow: 0 0 0px rgba(173, 143, 91, 0.0);
+    border-color: transparent;
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(173, 143, 91, 1);
+    border-color: #ad8f5b;
+  }
+  100% {
+    box-shadow: 0 0 0px rgba(173, 143, 91, 0.0);
+    border-color: transparent;
+  }
+}
+/* Center p4 table container */
+#p4 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Make sure table stays centered inside */
+#p4 table {
+  margin-left: auto;
+  margin-right: auto;
+}
+.table-responsive {
+  overflow-x: auto;
+}
+#footer{
+  background-color: #ad8f5b;
+  padding:30px
+}
+#footer a{
+  color:#15243b;
+}
+#footer h4{
+  color:#15243b;
+}
+.copy{
+  color: #15243b;
+}
+.navbar-brand{
+  color:white;
+}

@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #15243b;
+  overflow-x: hidden;
+}
+
+/* GIF section (left side) */
+.gif-box {
+  background-color: #15243b;
+  overflow: hidden;
+}
+
+.full-gif {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Button section (right side) */
+.button-section {
+  background-color: #15243b;
+  color: white;
+  text-align: center;
+}
+
+.button-box button {
+  font-size: 1.3rem;
+  border-radius: 50px;
+  transition: 0.3s ease;
+}
+
+.button-box button:hover {
+  background-color: #ad8f5b;
+  color: #fff;
+  transform: scale(1.05);
+}
+@media (max-width: 768px) {
+  .gif-box {
+    height: 40vh;
+  }
+  .button-section {
+    height: auto;
+    padding: 40px 10px;
+  }
+  .button-box button {
+    width: 80%;
+    font-size: 1.2rem;
+  }
+}
+
+/* Small mobile devices */
+@media (max-width: 576px) {
+  .gif-box {
+    height: 35vh;
+  }
+  .hospital-logo {
+    max-width: 75%;
+  }
+  .button-box button {
+    width: 85%;
+    font-size: 1.1rem;
+  }
+}
+#footer{
+  background-color: #ad8f5b;
+  padding:30px
+}
+#footer a{
+  color:#15243b;
+}
+#footer h4{
+  color:#15243b;
+}
+.copy{
+  color: #15243b;
+}
+.navbar-brand{
+  color:white;
+}
